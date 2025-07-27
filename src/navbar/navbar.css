@@ -6,13 +6,14 @@
   justify-content: space-between;
   
   align-items: center;
-  background: linear-gradient(145deg,#C2D8B9, #C2D8B9);
+  /* background: linear-gradient(145deg,#C2D8B9, #C2D8B9); */
+  background-color: #555b6e;
   padding: 10px 20px;
   /* border-radius:999px; */
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   font-family: 'Poppins', sans-serif;
-  color: #738290;
-   box-shadow: 0 2px 9px rgba(79, 76, 78, 0.5);
+   color: #89b0ae; 
+   
    /* position: sticky; */
   
   /* position: sticky;
@@ -26,7 +27,7 @@
 .logo h1{
   font-size: 24px;
   font-weight: 600;
-  color: #FFFCF7;
+  color: #faf9f9;
 }
 
 
@@ -65,9 +66,9 @@
   border-right: 2px solid #70a1ff;
   background-color: rgba(255, 255, 255, 0.9);
   color: #40739e; */
-  color: #A1B5D8;
+  color: #faf9f9;
   scale: 1.1;
-     box-shadow: 0 2px 12px rgba(141, 131, 140, 0.5);
+     box-shadow: 0 2px 12px rgba(226, 220, 225, 0.5);
 }
 
 /* Remove underline on links */
@@ -79,6 +80,7 @@
 .links li a.active {
   
   scale: 1.1;
-     box-shadow: 0 2px 12px rgba(141, 131, 140, 0.5);
+ 
+  color: #faf9f9;
 
 }

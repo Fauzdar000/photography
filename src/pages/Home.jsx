@@ -36,7 +36,7 @@ export default function CarouselHome() {
         autoPlay
         showStatus={false}
         showArrows={true}
-        interval={5000}
+        interval={3000}
         
       >
         {photos.map((photo, index) => (

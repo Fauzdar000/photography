@@ -21,10 +21,12 @@
 }
 
 .custom-legend {
-  background: rgba(129, 125, 125, 0.5);
+  /* background: rgba(194, 181, 181, 0.5); */
+  background: transparent;
   bottom: 40px;
   padding: 20px;
   text-align: left;
   font-size: 1.2rem;
   color: white;
+
 }

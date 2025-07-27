@@ -17,7 +17,7 @@ export default function Products() {
   const items = [
     { id: 1, name: 'Flower Bloom', description: 'Aesthetic flower captured in full bloom with vibrant colors.', image: flower1 },
     { id: 2, name: 'Sthapana Rai', description: 'A beautiful girl with an elegant smile and charming personality.', image: sthapana0 },
-    { id: 3, name: 'Sthapana Rai', description: 'Capturing a candid moment of a lovely girl in natural light.', image: sthapan1 },
+    // { id: 3, name: 'Sthapana Rai', description: 'Capturing a candid moment of a lovely girl in natural light.', image: sthapan1 },
     { id: 4, name: 'Sthapana Rai', description: 'Radiant and graceful – a portrait of beauty and confidence.', image: sthapana },
     { id: 5, name: 'Cloudy Skies', description: 'A calm and peaceful sky filled with soft, drifting clouds.', image: clouds },
     { id: 6, name: 'Yellow Bloom', description: 'A fresh flower captured on a summer day, showcasing nature’s simplicity.', image: flower },
@@ -47,7 +47,7 @@ export default function Products() {
       {/* Modal */}
       {selectedImage && (
         <div className="modal" onClick={() => setSelectedImage(null)}>
-          <span className="close">&times;</span>
+          <span className="close">*</span>
           <img src={selectedImage} alt="Large View" className="modal-image" />
         </div>
       )}
