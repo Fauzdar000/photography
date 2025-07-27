@@ -1,0 +1,30 @@
+.carousel-container {
+  width: 95vw;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.carousel .slide {
+  background: none;
+  height: 85vh;
+}
+
+.carousel-img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.custom-legend {
+  background: rgba(129, 125, 125, 0.5);
+  bottom: 40px;
+  padding: 20px;
+  text-align: left;
+  font-size: 1.2rem;
+  color: white;
+}
