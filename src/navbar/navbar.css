@@ -1,7 +1,7 @@
 
 /* Container styling */
 .nav-container {
-
+margin: 10px;
   display: flex;
   justify-content: space-between;
   
@@ -78,9 +78,50 @@
 }
 
 .links li a.active {
-  
   scale: 1.1;
- 
   color: #faf9f9;
+  position: relative; /* needed for underline pseudo-element */
+}
 
+
+/* Responsive for tablets */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  .links {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .links li {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+/* Responsive for small phones */
+@media (max-width: 480px) {
+  .logo h1 {
+    font-size: 18px;
+  }
+
+  .links li {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .links {
+    gap: 10px;
+  }
 }

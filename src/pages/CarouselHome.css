@@ -1,6 +1,6 @@
 .carousel-container {
-  width: 95vw;
-  height: 90vh;
+  width: 80vw;
+  height: 80vh;
   overflow: hidden;
   display: flex;
   align-content: center;
@@ -11,7 +11,7 @@
 
 .carousel .slide {
   background: none;
-  height: 85vh;
+  height: 80vh;
 }
 
 .carousel-img {
@@ -29,4 +29,44 @@
   font-size: 1.2rem;
   color: white;
 
+}
+
+/* ✅ Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 80vh;
+  }
+
+  .custom-legend {
+    font-size: 1rem;
+    padding: 12px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .custom-legend h3 {
+    font-size: 1.5rem;
+  }
+
+  .custom-legend p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-legend {
+    font-size: 0.9rem;
+    padding: 10px;
+    max-width: 90%;
+    bottom: 15px;
+    left: 15px;
+  }
+
+  .custom-legend h3 {
+    font-size: 1.2rem;
+  }
+
+  .custom-legend p {
+    font-size: 0.85rem;
+  }
 }

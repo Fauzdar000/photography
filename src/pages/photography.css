@@ -102,3 +102,20 @@ gap: 20px;
   font-weight: bold;
   cursor: pointer;
 }
+@media (max-width: 1024px) {
+  .card-container {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    column-count: 1;
+  }
+}
