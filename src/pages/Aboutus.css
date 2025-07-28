@@ -51,17 +51,3 @@
     padding: 15px;
   }
 }
-
-@media (max-width: 480px) {
-  .overlay h1 {
-    font-size: 1.8rem;
-  }
-
-  .overlay p {
-    font-size: 0.95rem;
-  }
-
-  .overlay {
-    padding: 10px;
-  }
-}
