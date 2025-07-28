@@ -19,7 +19,7 @@ function App() {
       <Router>
       <Dummyproject />
       <Routes>
-        <Route path="/home" element={<CarouselHome />} />
+        <Route path="/" element={<CarouselHome />} />
         {/* <Route path="/shop" element={<Shop />} /> */}
         <Route path="/photography" element={<Photography />} />
         <Route path="/about" element={<Aboutus />} />

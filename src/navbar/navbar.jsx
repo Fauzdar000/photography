@@ -13,7 +13,7 @@ export default function Dummyproject({ search, setSearch }) {
       </div>
 
       <ul className="links">
-        <li><Link to="/home"  className={location.pathname === "/home" ? "active" : ""}
+        <li><Link to="/"  className={location.pathname === "/" ? "active" : ""}
          >Home</Link></li>
         <li><Link to="/photography" className={location.pathname === "/photography" ? "active" : ""}
         >Photography</Link></li>
